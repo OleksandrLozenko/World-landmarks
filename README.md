@@ -16,9 +16,11 @@ API реализовано с использованием **Node.js**, **Apollo
 git clone https://github.com/yourusername/landmark-api.git
 cd landmark-api
 
+### 1. Клонируйте репозиторий
 ```bash
 npm install
 
+### 1. Клонируйте репозиторий
 ```bash
 const mysql = require('mysql2');
 
@@ -30,8 +32,10 @@ const db = mysql.createConnection({
   database: 'landmarks'   // имя базы данных
 });
 
+### 1. Клонируйте репозиторий
 ```bash
 node index.js
 
+### 1. Клонируйте репозиторий
 ```bash
 http://localhost:4000/graphql
