@@ -4,8 +4,7 @@
 
 Проект "Мировые достопримечательности" представляет собой веб-приложение для управления данными о мировых достопримечательностях с использованием **GraphQL**. Приложение позволяет добавлять, обновлять, удалять и получать информацию о достопримечательностях, таких как название, описание, страна, год постройки и изображение.
 
-
-API реализовано с использованием **Node.js**, **Apollo Server** и **Express**. Для хранения данных используется **MYSQL**.
+API реализовано с использованием **Node.js**, **Apollo Server** и **Express**. Для хранения данных используется **MySQL**.
 
 ## Инструкция по установке и запуску
 
@@ -16,3 +15,23 @@ API реализовано с использованием **Node.js**, **Apollo
 ```bash
 git clone https://github.com/yourusername/landmark-api.git
 cd landmark-api
+
+```bash
+npm install
+
+```bash
+const mysql = require('mysql2');
+
+// Подключение к базе данных MySQL
+const db = mysql.createConnection({
+  host: 'localhost',      // адрес базы данных (можно использовать IP или localhost)
+  user: 'root',           // ваш логин
+  password: '',           // ваш пароль
+  database: 'landmarks'   // имя базы данных
+});
+
+```bash
+node index.js
+
+```bash
+http://localhost:4000/graphql
