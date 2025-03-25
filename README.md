@@ -16,6 +16,8 @@ API реализовано с использованием **Node.js**, **Apollo
 git clone https://github.com/yourusername/landmark-api.git
 cd landmark-api
 
+---
+
 ### 1. Клонируйте репозиторий
 ```bash
 npm install
